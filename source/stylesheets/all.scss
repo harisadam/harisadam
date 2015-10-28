@@ -96,6 +96,12 @@ footer{
 
 /* Mobile specific rules */
 @media screen and (max-width: 991px) {
+  .header{
+    .social-icons{
+      text-align:center;
+    }
+  }
+
   .contacts{
     p{
       display:inline-block;
@@ -134,6 +140,7 @@ footer{
   .details{
     h3,
     h4,
+    h5,
     p{
       text-align:center;
     }

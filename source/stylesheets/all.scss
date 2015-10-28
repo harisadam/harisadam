@@ -4,3 +4,99 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
+
+.header{
+  margin: 40px 0;
+
+  .avatar{
+    -webkit-box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2) inset;
+    border-radius: 50%;
+    background: url("http://www.gravatar.com/avatar/1e6ff3bff926d0aa96a65080398678ed.png");
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin: 0 25px 0 0;
+  }
+
+  h2.name{
+    font-size:50px;
+    display:inline-block;
+    margin: 0;
+    line-height: 80px;
+  }
+
+  p{
+    text-align: right;
+    margin-bottom: 2px;
+    line-height: 17px;
+  }
+}
+
+.details{
+  .section-title{
+    h3{
+      text-align:center;
+      margin:0;
+    }
+
+    a{
+      width:100px;
+      display:block;
+      text-align:center;
+      margin:15px auto;
+    }
+  }
+
+  .row{
+    margin:25px 0;
+  }
+}
+
+
+/* Mobile specific rules */
+@media screen and (max-width: 991px) {
+  .contacts{
+    p{
+      display:inline-block;
+      margin-right:10px
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header{
+    .avatar{
+      display:block;
+      margin:0 auto;
+      float: initial;
+    }
+
+    h2.name{
+      width: 100%;
+      text-align:center;
+      font-size: 35px;
+    }
+
+    h4{
+      text-align: center;
+    }
+
+    .contacts{
+      p{
+        display:block;
+        margin-right:10px;
+        text-align:center;
+      }
+    }
+  }
+
+  .details{
+    h3,
+    h4,
+    p{
+      text-align:center;
+    }
+  }
+}

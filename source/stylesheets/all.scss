@@ -1,3 +1,5 @@
+$fa-enable-utilities: true !default;
+@import "font-awesome";
 @charset "utf-8";
 
 body {
@@ -32,6 +34,38 @@ body {
     margin-bottom: 2px;
     line-height: 17px;
   }
+
+  .social-icons{
+    text-align:right;
+
+    a{
+      color:black;
+      font-size:25px;
+    }
+
+    a:hover,
+    a:visited{
+      text-decoration:none;
+    }
+  }
+}
+
+.social{
+  text-align:center;
+
+  a{
+    color:black;
+  }
+
+  a:hover,
+  a:visited{
+    text-decoration:none;
+  }
+
+  i{
+    font-size:40px;
+    width:20%;
+  }
 }
 
 .details{
@@ -52,6 +86,11 @@ body {
   .row{
     margin:25px 0;
   }
+}
+
+footer{
+  margin:20px 0;
+  text-align:center;
 }
 
 

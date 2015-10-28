@@ -37,6 +37,8 @@ GEM
     eventmachine (1.0.7)
     execjs (2.6.0)
     ffi (1.9.10)
+    font-awesome-middleman (4.4.0)
+      middleman-core (~> 3.0)
     haml (4.0.7)
       tilt
     hike (1.2.3)
@@ -129,6 +131,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  font-awesome-middleman
   middleman (~> 3.4.0)
   middleman-livereload (~> 3.1.0)
   tzinfo-data

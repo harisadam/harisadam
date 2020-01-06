@@ -1,5 +1,4 @@
 $fa-enable-utilities: true !default;
-@import "font-awesome";
 @charset "utf-8";
 
 body {
@@ -15,7 +14,8 @@ body {
     -moz-box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2) inset;
     box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2) inset;
     border-radius: 50%;
-    background: url("http://www.gravatar.com/avatar/1e6ff3bff926d0aa96a65080398678ed.png");
+    background: url("/images/a.jpg");
+    background-size: cover;
     height: 80px;
     width: 80px;
     float: left;
